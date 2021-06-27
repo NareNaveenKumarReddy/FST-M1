@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d41c5d3e-b263-4847-bdd0-e558b7bf590f" created="3.8.1" activeEnvironment="Default environment" name="JSONSLURPER ACTIVITY" updated="3.8.1 2021-05-25T17:56:21Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="55b3d9f3-6119-4410-818e-2e2dea32182a" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://petstore.swagger.io" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://petstore.swagger.io</con:endpoint></con:endpoints><con:resource name="Inventory" path="/v2/store/inventory" id="e95d6ec0-ccd7-4318-9bab-7bf25f19eeae"><con:settings/><con:parameters/><con:method name="Inventory" id="4ee8ed33-2476-492d-9687-cf62d0fe381e" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:inv="https://petstore.swagger.io/v2/store/inventory">inv:Response</con:element></con:representation><con:request name="Request 1" id="84806cf0-b466-42bc-ae35-74fa24a6b920" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>https://petstore.swagger.io/v2/store/inventory</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="0b66d1aa-76ec-4baf-bc7a-1bee7c4f043a" name="https://petstore.swagger.io Test Suite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="21661a8a-059a-4095-93a4-aecedea4dbf6" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://petstore.swagger.io Test Case 1" searchProperties="true" timeout="0"><con:settings/><con:testStep type="restrequest" name="Request 1" id="5a611b81-e463-4f10-bf04-b5d245fc7144"><con:settings/><con:config service="https://petstore.swagger.io" resourcePath="/v2/store/inventory" methodName="Inventory" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1" id="84806cf0-b466-42bc-ae35-74fa24a6b920" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>https://petstore.swagger.io/v2/store/inventory</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="9ca678b3-662b-46da-b0af-098b6fec4ced" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="f80c49e0-77bb-48f5-8fd9-d625b3deb94f"><con:settings/><con:config><script>//Import JsonSlurper
+import groovy.json.JsonSlurper
+
+//Create Object
+def slurp = new JsonSlurper()
+
+//Get response JSON
+def res = context.expand('${Request 1#response}')
+
+//Save response as list
+def jsonRes = slurp.parseText(res)
+
+log.info jsonRes.sold
+log.info jsonRes.string
+log.info jsonRes.available
+log.info jsonRes.pending</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:reporting/><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+// This code is often used for adding custom authentication to ReadyAPI functional tests
+
+// If hardcoding the token, uncomment and change line 5
+// token = '4567'
+
+// If your token is parameterized in Project level custom property, uncomment line 8
+// token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+
+// To modify all outgoing calls, remove comments from lines 11 to 16
+// headers = request.requestHeaders
+// if (headers.containsKey('auth_token2') == false) {
+//   headers.put('auth_token2', token)
+//   request.requestHeaders = headers
+// }</con:script></con:eventHandlers><con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep"><con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new java.io.PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script></con:eventHandlers><con:authRepository/><con:tags/></con:soapui-project>

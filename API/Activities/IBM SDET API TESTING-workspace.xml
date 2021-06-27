@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="IBM SDET API TESTING" cid="e197693d-b350-46d3-b3f3-47113c35c471" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="SOAP Project 1" lastOpened="2021-06-14T09:27:49.499+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/SOAP-Project-1-readyapi-project.xml</con:project>
+  <con:project name="REST Project 1" lastOpened="2021-06-15T10:26:02.611+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/REST-Project-1-readyapi-project.xml</con:project>
+  <con:project name="REST API Activity" lastOpened="2021-06-14T10:57:55.188+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/REST-API-Activity-readyapi-project.xml</con:project>
+  <con:project name="JSONPATH ASSERTION ACTIVITY" lastOpened="2021-06-17T10:21:05.065+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/JSONPATH-ASSERTION-ACTIVITY-readyapi-project.xml</con:project>
+  <con:project name="XPATH ASSERTION ACTIVITY" lastOpened="2021-06-17T10:27:29.932+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/XPATH-ASSERTION-ACTIVITY-readyapi-project.xml</con:project>
+  <con:project name="GROOVY SCRIPTING ACTIVITY" lastOpened="2021-06-17T10:57:50.643+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/GROOVY-SCRIPTING-ACTIVITY-readyapi-project.xml</con:project>
+  <con:project name="GitHub API Project" lastOpened="2021-06-21T09:12:16.751+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/GitHub-API-Project-readyapi-project.xml</con:project>
+  <con:project name="SETUP/TEARDOWN SCRIPT ACTIVITY" lastOpened="2021-06-18T08:53:20.632+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/SETUP-TEARDOWN-SCRIPT-ACTIVITY-readyapi-project.xml</con:project>
+  <con:project name="CONTEXT &amp; XMLHOLDER, GROOVY UTILS AND MESSAGE EXCHANGE ACTIVITY" lastOpened="2021-06-21T09:12:23.547+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/CONTEXT---XMLHOLDER--GROOVY-UTILS-AND-MESSAGE-EXCHANGE-ACTIVITY-readyapi-project.xml</con:project>
+  <con:project name="JSONSLURPER ACTIVITY" lastOpened="2021-06-23T09:09:13.035+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/JSONSLURPER-ACTIVITY-readyapi-project.xml</con:project>
+  <con:project name="DATA DRIVEN TEST ACTIVITY 1" lastOpened="2021-06-23T09:16:27.341+05:30">C:/Users/NaveenKumarReddyNare/AppData/Roaming/Microsoft/Windows/Network Shortcuts/DATA-DRIVEN-TEST-ACTIVITY-1-readyapi-project.xml</con:project>
+  <con:recentItemCollection>
+    <con:moduleId>SoapUiNGModule</con:moduleId>
+    <con:itemId>49a886a6-f368-408b-b93f-4b6847a20dc3</con:itemId>
+    <con:itemId>10af4290-a501-4bd4-b7fa-d4eb094f6547</con:itemId>
+    <con:itemId>a30b58a9-3ada-4c62-870f-7f80cfe5d1e1</con:itemId>
+    <con:itemId>0314eb1d-230a-4388-b3de-79aec63be16c</con:itemId>
+    <con:itemId>2092a574-8cfc-42dd-9fb5-02858684e31d</con:itemId>
+  </con:recentItemCollection>
+  <con:expandedTreeNodes>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\SOAP-Project-1-readyapi-project.xml"/>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\REST-Project-1-readyapi-project.xml">
+      <nodeId>5d56de38-b40a-4dfa-ab38-2edc6daf730c</nodeId>
+      <nodeId>44ebfdf9-b17d-4737-82eb-15c4dbc5ba3bapis</nodeId>
+      <nodeId>44ebfdf9-b17d-4737-82eb-15c4dbc5ba3bsoapui</nodeId>
+      <nodeId>27b70202-23ca-4aa7-99f5-bb23391891a2</nodeId>
+      <nodeId>c9d0d083-ce9e-4f6e-8a68-70f8b3d9bee1</nodeId>
+    </con:project>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\REST-API-Activity-readyapi-project.xml">
+      <nodeId>f0e6d93f-41cc-49ba-85af-4fa490a34b9bsoapui</nodeId>
+      <nodeId>22052a7d-85fc-450d-adae-6b6a656d33fb</nodeId>
+      <nodeId>1b7f4c18-bd3a-4be2-8732-4e1ea291624e</nodeId>
+    </con:project>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\JSONPATH-ASSERTION-ACTIVITY-readyapi-project.xml"/>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\XPATH-ASSERTION-ACTIVITY-readyapi-project.xml">
+      <nodeId>7591a52e-47cd-43c8-9d1c-3a6dcfed901d</nodeId>
+      <nodeId>0d8b79f0-504a-414a-9ed9-e44d1216018c</nodeId>
+      <nodeId>faa9453e-598c-42a0-8685-d2e2d3f7eb14soapui</nodeId>
+    </con:project>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\GROOVY-SCRIPTING-ACTIVITY-readyapi-project.xml"/>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\GitHub-API-Project-readyapi-project.xml"/>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\SETUP-TEARDOWN-SCRIPT-ACTIVITY-readyapi-project.xml"/>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\CONTEXT---XMLHOLDER--GROOVY-UTILS-AND-MESSAGE-EXCHANGE-ACTIVITY-readyapi-project.xml">
+      <nodeId>e8e61543-fa92-49f7-b8c4-357db1ff20fd</nodeId>
+    </con:project>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\JSONSLURPER-ACTIVITY-readyapi-project.xml"/>
+    <con:project path="C:\Users\NaveenKumarReddyNare\AppData\Roaming\Microsoft\Windows\Network Shortcuts\DATA-DRIVEN-TEST-ACTIVITY-1-readyapi-project.xml">
+      <nodeId>6d3a19e0-ffce-4198-98a7-b7b46635b894</nodeId>
+      <nodeId>cb2a9e4b-5ef5-4c9c-bf67-fe90fdedb2a8soapui</nodeId>
+      <nodeId>69981e04-a992-4dc9-96fd-244d3147e0ce</nodeId>
+      <nodeId>cb2a9e4b-5ef5-4c9c-bf67-fe90fdedb2a8</nodeId>
+    </con:project>
+    <con:project path="">
+      <nodeId>31d70683-57a0-4cfb-8a67-df57868f4373soapui</nodeId>
+      <nodeId>31d70683-57a0-4cfb-8a67-df57868f4373</nodeId>
+      <nodeId>c40e67b1-e189-48f7-a5b9-7b885ccab430</nodeId>
+      <nodeId>a30b58a9-3ada-4c62-870f-7f80cfe5d1e1</nodeId>
+    </con:project>
+  </con:expandedTreeNodes>
+  <con:dashboardTileCollection>
+    <con:dashboardTiles>
+      <con:dashboardTile tileId="b7c46429-3fdf-463c-a197-5f80ddbacd98" tileType="NEW_TEST"/>
+      <con:dashboardTile tileId="522ebe48-0e3a-4b7f-82dc-eda38529a5d4" tileType="TEST_SUITE_STATUS">
+        <con:settings xsi:type="con:TestStatusTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="11187f94-3934-4344-82bd-1afbe8975142" tileType="TEST_CASE_STATUS_TILE">
+        <con:settings xsi:type="con:TestCaseStatusTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="c0d4fb64-13f4-40df-bd7f-9fe4bf23fa23" tileType="SECURE_TILE">
+        <con:settings xsi:type="con:SecureTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:scan>All Scans</con:scan>
+          <con:project>All Projects</con:project>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="2bd0a2da-36b6-4942-8063-26aa822ea0ca" tileType="LOADUI_HISTORY_TILE">
+        <con:settings xsi:type="con:LoadHistoryTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:project>All Projects</con:project>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="ea0c0b5b-4577-4e1f-a7dd-0143f594e364" tileType="SERVICEV">
+        <con:settings xsi:type="con:ServiceVTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:tableSettings>
+            <con:column>Name</con:column>
+            <con:column>Status</con:column>
+            <con:column>Location</con:column>
+            <con:column>Port</con:column>
+          </con:tableSettings>
+          <con:searchSettings>
+            <con:searchType>All</con:searchType>
+          </con:searchSettings>
+        </con:settings>
+      </con:dashboardTile>
+    </con:dashboardTiles>
+    <con:recentDashboardTiles/>
+  </con:dashboardTileCollection>
+  <con:overridenPropertyValuesCollection/>
+</con:soapui-workspace>
