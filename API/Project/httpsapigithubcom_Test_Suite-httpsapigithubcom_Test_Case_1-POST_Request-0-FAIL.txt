@@ -1,0 +1,70 @@
+Status: FAIL
+Time Taken: 10054
+Size: 718
+Timestamp: Wed Jun 23 19:10:05 IST 2021
+TestStep: POST Request
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code: 201 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: POST
+StatusCode: 201
+URL: https://api.github.com/user/keys
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/15)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [596]
+Content-Type: [application/json]
+
+POST https://api.github.com/user/keys HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer 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
+Content-Length: 596
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/15)
+
+{
+	"title" : "MyPublicKey",
+	"key" : "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWD4DyTaorakheVEhV2YHr3Zpy7xx9m65CgMOn4f5543B9PAAyrcocHiZ3OqWb6mXuD4O0+mpCAQV3EDvuCMScpesumXqoemGVNt+xGeUQNF1pNHP91QCSwxI2bsE/EhxzLh0UF1EuY95ReD/rCaLWe0+TohNGvjPEeWiNxLGhctBG6I70KQkvnRJuL8DidlUyBX6m4+YZjsLvCDR2r2nJFWiiCIPGmMELkpDeDaDFSEi6wzENgYjND0I30nvtaEGKPGA8KnaJoPzZjwa7RJ0RwSzVYpKzPUzBV/wEEG8UzYY+0Z+GNd9vwfSar66lMnyALSEbvH0BhGHxXPRlUxkj0m0aHzJaEub7wl8Lonz/oNyb1P7njJzGisYSddM/zXha4vaUpQ2hcDB/ZVrDoHd+noEVjz3wXwChEQam5i7IKG6lQgvLBK+tqvwLxJbe+JCq40f9PjE6ThBN501JCH9r2FhMt392otzryqKa9dEfsGycmwZlcX5zOnnBA9d7tHk="
+	
+}
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [admin:public_key, write:public_key]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [2]
+Access-Control-Allow-Origin: [*]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4998]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 201 Created]
+Content-Length: [718]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [FAFC:55D8:1942CE:1B38AD:60D339BD]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1624459204]
+Date: [Wed, 23 Jun 2021 13:40:14 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: ["386525348d0907c8f3b6dad6a9a5314508069d074240bfd965c1d54727bfba83"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user]
+Location: [https://api.github.com/user/keys/54171005]
+
+{"id":54171005,"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWD4DyTaorakheVEhV2YHr3Zpy7xx9m65CgMOn4f5543B9PAAyrcocHiZ3OqWb6mXuD4O0+mpCAQV3EDvuCMScpesumXqoemGVNt+xGeUQNF1pNHP91QCSwxI2bsE/EhxzLh0UF1EuY95ReD/rCaLWe0+TohNGvjPEeWiNxLGhctBG6I70KQkvnRJuL8DidlUyBX6m4+YZjsLvCDR2r2nJFWiiCIPGmMELkpDeDaDFSEi6wzENgYjND0I30nvtaEGKPGA8KnaJoPzZjwa7RJ0RwSzVYpKzPUzBV/wEEG8UzYY+0Z+GNd9vwfSar66lMnyALSEbvH0BhGHxXPRlUxkj0m0aHzJaEub7wl8Lonz/oNyb1P7njJzGisYSddM/zXha4vaUpQ2hcDB/ZVrDoHd+noEVjz3wXwChEQam5i7IKG6lQgvLBK+tqvwLxJbe+JCq40f9PjE6ThBN501JCH9r2FhMt392otzryqKa9dEfsGycmwZlcX5zOnnBA9d7tHk=","url":"https://api.github.com/user/keys/54171005","title":"MyPublicKey","verified":true,"created_at":"2021-06-23T13:40:14Z","read_only":false}

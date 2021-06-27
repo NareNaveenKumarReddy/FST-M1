@@ -1,0 +1,10 @@
+Status: FAIL
+Time Taken: 0
+Size: 0
+Timestamp: Wed Jun 23 16:18:50 IST 2021
+TestStep: GET Request
+
+----------------- Messages ------------------------------
+java.net.UnknownHostException: api.github.com
+
+- missing response / garbage collected -
