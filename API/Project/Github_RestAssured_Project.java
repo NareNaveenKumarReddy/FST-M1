@@ -26,7 +26,7 @@ public class Github_RestAssured_Project {
                 // Set base URL
                 .setBaseUri("https://api.github.com")
                 // Build request specification
-                .addHeader("Authorization","Token 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")
+                .addHeader("Authorization","Token <token value>")
                 .build();
 		
 		
